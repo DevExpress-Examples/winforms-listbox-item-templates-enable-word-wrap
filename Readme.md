@@ -11,9 +11,4 @@
 <!-- default file list end -->
 # How to implement the word wrap functionality in the ListBoxControl
 
-
-<p>To implement this feature, you need to handle the MeasureItem event and calculate the required height based on the items text and on the client size. Then, within the DrawItem event handler, you can manually draw item's content using the DrawString method of our TextUtils.</p>
-
-<br/>
-
-
+Use [Templated ListBox Control](https://docs.devexpress.com/WindowsForms/119680/controls-and-libraries/editors-and-simple-controls/templated-listbox-items) to complete this task. Create a [Regular](https://docs.devexpress.com/WindowsForms/119680/controls-and-libraries/editors-and-simple-controls/templated-listbox-items#regular-templates) or [HTML-CSS Template](https://docs.devexpress.com/WindowsForms/119680/controls-and-libraries/editors-and-simple-controls/templated-listbox-items#html-css-templates) and use the [ListBoxControl.ItemAutoHeight](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.BaseListBoxControl.ItemAutoHeight) property to enable auto-height and text wrapping in ListBoxControl.
