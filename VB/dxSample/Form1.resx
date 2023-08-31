@@ -112,18 +112,89 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="categoriesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="categoriesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>139, 17</value>
   </metadata>
-  <metadata name="nwindDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="categoriesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>316, 17</value>
-  </metadata>
+  <data name="htmlTemplate1.Styles" xml:space="preserve">
+    <value>.category {
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	background-color: @Window;
+	color: @WindowText;
+}
+
+.category-body {
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.category-info {
+	flex-grow: 1;
+}
+
+.category-info:hover .info {
+	opacity: 0.5;
+}
+
+.category-info .info:hover {
+	opacity: 1.0;
+}
+
+.category-name {
+	display: flex;
+	align-items: center;
+	background-color: LightGray;
+}
+
+.name {
+	font-size: 18px;
+	line-height: 24px;
+	overflow-x: hidden;
+	padding: 2px;
+}
+
+.description{
+	color: @DisabledText;
+	font-size: 12px;
+	line-height: 18px;
+	overflow-x: hidden;
+	height: auto;
+	padding: 2px;
+}
+
+.selection {
+	border-top: solid 1px @Window;
+	border-bottom: solid 1px @WindowText/0.1;
+}
+
+:root:select .selection {
+	border-top: solid 0px @Window;
+	border-bottom: solid 2px @HighlightAlternate;
+}</value>
+  </data>
+  <data name="htmlTemplate1.Template" xml:space="preserve">
+    <value>&lt;div class="category"&gt;
+	&lt;div style="flex-grow:1;"&gt;
+        &lt;div class="category-body"&gt;
+            &lt;div class="category-info"&gt;
+                &lt;div class="category-name"&gt;
+                    &lt;div class="name"&gt;${Name}&lt;/div&gt;                    
+                &lt;/div&gt;
+                &lt;div class="description"&gt;${Description}&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+		&lt;div class='selection'&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
 </root>
