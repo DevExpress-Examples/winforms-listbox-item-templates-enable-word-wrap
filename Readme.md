@@ -21,7 +21,7 @@ DevExpress ListBox controls (`ListBoxControl`, `CheckedListBoxControl`, and `Ima
 * [Templated ListBox Controls](https://docs.devexpress.com/WindowsForms/119680/controls-and-libraries/editors-and-simple-controls/templated-listbox-items)
 * [HTML and CSS Support](https://docs.devexpress.com/WindowsForms/403397/common-features/html-css-based-desktop-ui)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-listbox-item-templates-enable-word-wrap&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-listbox-item-templates-enable-word-wrap&~~~was_helpful=no)
 
