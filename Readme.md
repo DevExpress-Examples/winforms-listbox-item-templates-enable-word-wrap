@@ -9,7 +9,7 @@
 
 DevExpress ListBox controls (`ListBoxControl`, `CheckedListBoxControl`, and `ImageListBoxControl`) can generate items from regular and HTML-CSS templates. This example demonstrates how to create regular and HTML-CSS templates to wrap long text within listbox items (display multiline text).
 
-![WinForms ListBoxControl - Item Templates](https://raw.githubusercontent.com/DevExpress-Examples/how-to-implement-the-word-wrap-functionality-in-the-listboxcontrol-e1227/23.1.3%2B/media/winforms-listbox-item-templates.png)
+![WinForms ListBoxControl - Item Templates](media/winforms-listbox-item-templates.png)
 
 ## Files to Review
 
@@ -27,3 +27,4 @@ DevExpress ListBox controls (`ListBoxControl`, `CheckedListBoxControl`, and `Ima
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
